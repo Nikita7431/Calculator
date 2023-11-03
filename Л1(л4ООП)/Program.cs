@@ -82,20 +82,7 @@ namespace Л1
             }
         }
 
-        public string GetInfo()
-        {
-            Type type = this.GetType();
-            PropertyInfo[] properties = type.GetProperties();
-            StringBuilder str = new StringBuilder();
-
-            foreach (PropertyInfo property in properties)
-            {
-                var value = property.GetValue(this);
-                str.Append($"{value} ");
-            }
-            Console.WriteLine();
-            return str.ToString();
-        }
+        
         public string GetInfo(bool includeIntProperty)
         {
             Type type = this.GetType();
