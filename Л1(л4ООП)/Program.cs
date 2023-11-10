@@ -19,12 +19,7 @@ namespace Л1
                 string st = Console.ReadLine();
                 if (st == "да")
                 {
-                    Console.WriteLine("\n\nВвод данных пользователя ");
-                    Console.Write($"Имя: ");
-                    people.Name = Console.ReadLine();
-                    Console.Write($"Фамилия: ");
                    
-                    Console.Write($"Возраст: ");
                  
 
                     Console.Write("Выводить ли возраст? Введите да/нет ");
