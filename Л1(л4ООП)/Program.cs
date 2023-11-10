@@ -23,16 +23,15 @@ namespace Л1
                     Console.Write($"Имя: ");
                     people.Name = Console.ReadLine();
                     Console.Write($"Фамилия: ");
-                    people.Family = Console.ReadLine();
+                   
                     Console.Write($"Возраст: ");
-                    people.Age = Convert.ToInt32(Console.ReadLine());
-
+                 
 
                     Console.Write("Выводить ли возраст? Введите да/нет ");
                     string s = Console.ReadLine();
                     if (s == "да")
                     {
-                        Console.WriteLine(people.GetInfo());
+                        
                     }
                     else if (s == "нет")
                     {
@@ -62,9 +61,7 @@ namespace Л1
         {
             get
             {
-                if (Age < 25)
-                    return true;
-                else
+               
                     return false;
             }
         }
