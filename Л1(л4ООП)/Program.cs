@@ -19,8 +19,9 @@ namespace Л1
                 string st = Console.ReadLine();
                 if (st == "да")
                 {
-                   
+          
                  
+                   
 
                     Console.Write("Выводить ли возраст? Введите да/нет ");
                     string s = Console.ReadLine();
