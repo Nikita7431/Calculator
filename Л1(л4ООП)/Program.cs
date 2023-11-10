@@ -56,20 +56,7 @@ namespace Л1
         private bool age25;
 
         public string Name { get => name; set => name = value; }
-        public string Family
-        {
-            get { return family; }
-            set { family = value; }
-        }
-        public int Age
-        {
-            get { return age; }
-            set
-            {
-                if (age >= 0)
-                    age = value;
-            }
-        }
+       
 
         public bool Age25
         {
